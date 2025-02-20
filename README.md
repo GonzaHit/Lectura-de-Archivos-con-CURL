@@ -19,13 +19,16 @@ git clone <URL_del_repositorio>
 cd <nombre_del_repositorio>
 
 Asigna permisos de ejecución al script:
+
 bash
 chmod +x leer_archivo.sh
 
 Ejecuta el script con la ruta del archivo y la URL del servidor:
+
 bash
 ./leer_archivo.sh -f <ruta_del_archivo> -u <url_del_servidor>
 
 Para mostrar el panel de ayuda:
+
 bash
 ./leer_archivo.sh -h
